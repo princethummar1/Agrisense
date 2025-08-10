@@ -1,0 +1,55 @@
+.update-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.form-control-lg {
+  border-radius: 10px;
+  background-color: #f1f8ff;
+  border: 1px solid #ced4da;
+  transition: all 0.3s;
+}
+
+.form-control-lg:focus {
+  background-color: #e1f0ff;
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-hover.color-1 {
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-hover.color-1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.card-title h3 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title h3 {
+    font-size: 1.5rem;
+  }
+}
