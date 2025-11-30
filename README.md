@@ -1,38 +1,37 @@
-# [CropMate - MERN, Flask, Machine Learning]
+# AgriSense 🌾
+> **AI-Powered Crop Recommendation & Soil Health Monitoring System**
 
-> CropMate is a comprehensive agricultural project aimed at revolutionizing farming practices by leveraging technology and data-driven insights. It consists of several components, including a React web application, a mobile application developed using a server-side MERN Stack backend, and ensembled machine learning model for  precise recommendation for the crops based on soil parameters.
+AgriSense is a smart agricultural platform that leverages **Machine Learning** to help farmers make data-driven decisions. It combines a secure **MERN Stack** web application with a **Flask-based AI engine** to recommend the best crops based on specific soil parameters (N, P, K, pH).
 
-## Features
-- **Crop Recommendation**: Utilizes machine learning algorithms to provide personalized crop recommendations based on soil and environmental data.
-- **RestAPIs**: Single API calls for web app.
-- **Secure**: The web app is secured with Brypt and JWT libraries.
-- **Community Forum**: Facilitates knowledge sharing and collaboration among farmers through a dedicated forum.
-- **User Authentication**: Users can sign up, log in, and log out securely.
+## 🚀 Key Features
+* **🌱 AI Crop Recommendation:** Accurately suggests crops using an ensembled Machine Learning model hosted on Flask.
+* **💬 Community Forum:** A dedicated space for farmers to share knowledge and ask questions.
+* **🔒 Secure Authentication:** Fully secured user accounts using **Bcrypt** (encryption) and **JWT** (session management).
+* **📱 Responsive Design:** Built with React.js for a seamless experience on mobile and desktop.
+* **⚡ RESTful APIs:** Efficient communication between the React frontend, Node backend, and Python ML engine.
 
-## Technologies Used
+## 🛠️ Tech Stack
+| Component | Technologies |
+| :--- | :--- |
+| **Frontend** | React.js, CSS/Tailwind |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB, Mongoose |
+| **AI / ML** | Python, Flask, Scikit-learn, Pandas |
+| **Security** | JWT, Bcrypt |
 
-- **MongoDB**: NoSQL database used for storing user data, posts, and other information.
-- **Express.js**: Web application framework for building APIs and handling HTTP requests.
-- **React.js**: Frontend library for building user interfaces.
-- **Node.js**: JavaScript runtime environment used for server-side logic.
-- **Mongoose**: MongoDB object modeling tool for Node.js.
-- **JWT (JSON Web Tokens)**: Used for user authentication and authorization.
-- **Bcrypt**: Used for encrypting user passwords.
-- **Mongoose**: MongoDB object modeling tool for Node.js.
-- **Flask**: Micro web framework written in Python used to load and run the ML model and interact with it.
+## 📂 Project Structure
+The codebase is organized into three distinct micro-services:
 
+* **`/client`** → React.js Frontend (User Interface).
+* **`/server`** → Node/Express Backend (API, Auth, & Database logic).
+* **`/ml`** → Python/Flask Server (Loads the trained model & handles predictions).
 
-## Project Structure
-The project is organized into the following folders:
+## 📸 Screenshots
+| Dashboard | Prediction UI | Forum |
+| :---: | :---: | :---: |
+| ![Dash](assets/Screenshot1.png) | ![Pred](assets/Screenshot2.png) | ![Forum](assets/Screenshot3.png) |
 
-- **Server**: Houses the backend server implementation using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-- **Client**: Contains the code for the web application frontend, developed using React.js.
-- **ML**: Includes the machine learning module responsible for crop recommendation, implemented using Python.
+*(Add more screenshots as needed)*
 
-
-![Screenshot](assets/Screenshot1.png)
-![Screenshot](assets/Screenshot2.png)
-![Screenshot](assets/Screenshot3.png)
-![Screenshot](assets/Screenshot4.png)
-![Screenshot](assets/Screenshot5.png)
-![Screenshot](assets/Screenshot6.png)
+---
+Made with ❤️ by [Prince Thummar](https://github.com/princethummar1)
